@@ -1,0 +1,97 @@
+*{
+    background-color: #3B5D50;
+}
+/* menu-section */
+.container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto 50px auto;
+}
+.container h2{
+    margin-right: 270px;
+    color:#ffff;
+    font-size: 34px;
+}
+.nav-item{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.nav-item a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+    gap: 20px;
+    white-space: nowrap;
+}
+.nav-item a:hover{
+    color: #ffff;
+    transition: .3s;
+    border-bottom: 5px solid #f9bf29;
+    transition: 0.15s ease-in-out;
+}
+.icon{
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.icon img{
+    height: 30px;
+}
+/* banner-section */
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.banner-content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner-content h1{
+    color: #ffff;
+    font-size: 45px;
+    font-weight: 40px;
+}
+.banner-content p{
+    color:rgba(255, 255, 255, 0.5) ;
+    margin-bottom: 50px;
+}
+
+.primary-btn{
+    background-color: #f9bf29;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.primary-btn:hover{
+    background-color: #d8a011;
+    transition: 0.5s;
+}
+.secondary-btn{
+    background-color: transparent;
+    border:2px solid rgba(255, 255, 255, 0.5);
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.secondary-btn:hover{
+    border: 2px solid #ffff;
+    transition: 0.3s;
+}
+.banner-image img{
+    margin-right: 0;
+    width: 650px;
+    height: 420px;
+}
